@@ -9,6 +9,7 @@ class LabAssistant extends StaffMember {
         this.hourlyRate = hourlyRate;
     }
 
+
     public double calculateMonthlyPayment() {
         return hoursWorked * hourlyRate;
     }
